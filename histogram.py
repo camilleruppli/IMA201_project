@@ -17,6 +17,7 @@ for i in range(len(T)):
         print("could not open image")
 
         #bla bla test
+        #bla bla test 2
 
 
 
