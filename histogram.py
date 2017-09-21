@@ -16,6 +16,8 @@ for i in range(len(T)):
     except IOError:
         print("could not open image")
 
+        #bla bla test
+
 
 
 
