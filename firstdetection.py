@@ -24,7 +24,7 @@ for i in range(len(T)):
         V.append(center[j][0])
     V=sorted(V)
     print('V=',V)
-    im = cv2.imread('Kmeans/kmeans4_'+T[i]+'.jpg')
+    im = cv2.imread('Kmeans/kmeans5/kmeans5_'+T[i]+'.jpg')
     color = ('b','g','r')
     for k,col in enumerate(color):
         histr = cv2.calcHist([im],[k],None,[256],[0,256])
@@ -45,7 +45,7 @@ print('m3=',m3)
 for i in range(len(M1)):
     if M1[i]>m1:
         print('Image ', i,  'might present an abnormality')
-        img=cv2.imread('Kmeans/kmeans4_'+T[i]+'.jpg')
+        img=cv2.imread('Kmeans/kmeans5_'+T[i]+'.jpg')
         im=img.copy()
 
     elif M2[i]>m2:
